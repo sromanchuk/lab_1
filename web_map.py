@@ -23,7 +23,7 @@ def read_location():
     ['2016', 'ActorsLife', 'New York City, New York, USA']
     """
     films_info = []
-    with open('locations.list', encoding='utf-8', errors='ignore') as f:
+    with open('locations1.list', encoding='utf-8', errors='ignore') as f:
 
         for i, line in enumerate(f):
             try:
